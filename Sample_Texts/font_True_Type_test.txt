@@ -1,0 +1,22 @@
+FONT = Courier LEFT SIZE = 10 SPACING = 10 TYPE = CS 
+Try fonts  Use the PrintControls with the text2pdf.pl command.
+ FONT = font_name LEFT|CENTER SIZE = num SPACING = num TYPE = CS|TT
+   BOLD = num ITALIC = num SLANT = num OBLIQUE = num
+  Note: TT does not support BOLD ... OBLIQUE = num
+
+NEWFONTDIR /usr/share/fonts/truetype/oxygen
+
+FONT = Oxygen-Sans.ttf LEFT SIZE = 10 SPACING = 12 TYPE = TT 
+FONT = Oxygen-Sans-Bold.ttf LEFT SIZE = 10 SPACING = 12 TYPE = TT 
+
+NEWFONTDIR /usr/share/fonts/lato
+
+FONT = Lato-Regular.ttf LEFT SIZE = 10 SPACING = 12 TYPE = TT 
+FONT = Lato-Bold.ttf LEFT SIZE = 10 SPACING = 12 TYPE = TT 
+FONT = Lato-BoldItalic.ttf LEFT SIZE = 10 SPACING = 12 TYPE = TT 
+FONT = Lato-Italic.ttf LEFT SIZE = 10 SPACING = 12 TYPE = TT 
+
+FONTDIRS PDF
+
+End of the file.
+

@@ -1,0 +1,28 @@
+FONT = Courier LEFT SIZE = 10 SPACING = 10 TYPE = CS BOLD = 0 ITALIC = 0 SLANT = 0 OBLIQUE = 0
+Try fonts  Use the PrintControls with the text2pdf.pl command.
+ FONT = font_name LEFT|CENTER SIZE = num SPACING = num TYPE = CS|TT|PS
+   BOLD = num ITALIC = num SLANT = num OBLIQUE = num
+
+  IMAGE HEIGHT = nnn WIDTH = nnn FILE = pppppp
+
+FONT = Courier CENTER SIZE = 2 SPACING = 2 TYPE = CS BOLD = 0 ITALIC = 0 SLANT = 0 OBLIQUE = 0
+  
+IMAGE HEIGHT = 144 FILE = SRC/Images/knetwalk3.png
+IMAGE HEIGHT = 144 FILE = SRC/Images/CatsOnBed.JPG
+IMAGE HEIGHT = 144 FILE = SRC/Images/DogAsleep.jpg
+IMAGE HEIGHT = 144 FILE = SRC/Images/DogAsleep.tif
+IMAGE HEIGHT = 144 FILE = SRC/Images/GrandCanyonWithFence.JPG
+IMAGE HEIGHT = 144 FILE = SRC/Images/GrandCanyonWithFence_raw.pbm
+IMAGE HEIGHT = 144 FILE = SRC/Images/PGm_raw.pgm
+IMAGE HEIGHT = 144 FILE = SRC/Images/PGm_raw.pgm
+IMAGE HEIGHT = 144 FILE = SRC/Images/PGm_raw.pgm
+IMAGE HEIGHT = 144 FILE = SRC/Images/PNm_raw.pnm
+IMAGE HEIGHT = 144 FILE = SRC/Images/PPm_raw.ppm
+IMAGE WIDTH = 144 FILE = SRC/Images/knetwalk3.png
+IMAGE FILE = SRC/Images/GrandCanyonWithFence_raw.pbm
+
+
+End of the file.
+
+
+
